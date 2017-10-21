@@ -10,12 +10,11 @@ Vue.use(Router)
 
 export default new Router({
   mode : 'history',
-  base : '/vue-erp/',
   routes: [
     {
       path: '/',
       name: 'Login',
-      component: Login
+      component: Login,
     },
     {
       path: '/Main',
